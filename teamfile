@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Webpage</title>
+</head>
+<body>
+    <h1>Company Name: Harry and Harriet’s Hang-gliding Haven</h1>
+    <h2>Team Number: 6</h2>
+    <h3>List of Team Members:</h3>
+    <ul>
+        <li>Tyler Spurling</li>
+        <li>Kent Vaccaro</li>
+        <li>Adam Beer</li>
+        <li>Samantha Bloom</li>
+    </ul>
+</body>
+</html>
