@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Website Frameset</title>
-    <script>
-        function changeContent(link) {
-            parent.frames['content'].location.href = link;
-        }
-    </script>
 </head>
 <frameset cols="20%, 80%">
     <frame src="navigation.html" name="navigation" scrolling="auto">
     <frame src="teampage.html" name="content" scrolling="auto">
-    <noframes>
-        <body>
-            <p>This page uses frames, but your browser doesn't support them.</p>
-        </body>
-    </noframes>
 </frameset>
 </html>
