@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Our Story - Harry and Harriet's Hang-gliding Haven</title>
+    <title>Harry and Harriet's Hang-gliding Haven</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
     <style>
         body {
@@ -29,6 +29,9 @@
         .modified-date {
             font-style: italic;
             font-size: 0.8em;
+            text-align: center;
+            display: block;
+            margin-top: 20px;
         }
         .contact-link {
             font-style: italic;
@@ -58,36 +61,47 @@
 <body>
     <div class="container">
         <header>
-            <h1>Our Story and History</h1>
-            <p>Last updated on <span class="modified-date"></span></p>
+            <h1>Welcome to Harry and Harriet's Hang-gliding Haven</h1>
         </header>
-        <img src="path/to/your/image.jpg" alt="Hang-gliding in Action">
-        <p>Welcome to <span class="bold">Harry and Harriet's Hang-gliding Haven</span>, a premier destination for <span class="italic">hang-gliding and skydiving</span> enthusiasts located in the heart of Indiana. Our journey began in 2010, driven by a passion for the skies and a commitment to safety and exhilaration.</p>
-        <p>Our founders, <span class="underline">Harry and Harriet</span>, have cultivated a <span class="highlight">thriving community</span> of adventure seekers. We're proud to offer:</p>
-        <ul>
-            <li>Comprehensive training programs</li>
-            <li>State-of-the-art equipment sales</li>
-            <li>Personalized adventure packages</li>
-        </ul>
-        <p>Explore the top 10 fictional locations in Indiana for skydiving and hang-gliding:</p>
-        <ol>
-            <li>Cloudsdale Cliffs</li>
-            <li>Windwhisper Valley</li>
-            <li>Eagle's Nest Plateau</li>
-            <li>Twilight Canyon</li>
-            <li>Stormfront Ridge</li>
-            <li>Misthaven Mountains</li>
-            <li>Skydance Meadows</li>
-            <li>Thunderhead Peaks</li>
-            <li>Sunrise Summit</li>
-            <li>Horizon Heights</li>
-        </ol>
-        <p>For more details on our programs and services, download our <a href="path/to/your/brochure.pdf" download="Harry-Harriets-Hang-gliding-Haven-Brochure">brochure</a>.</p>
-        <p>Visit our <a href="https://example.com" target="_blank">partners</a> for more adventure gear.</p>
+        <section>
+            <h2>Our Story and History</h2>
+            <img src="path/to/your/image.jpg" alt="Hang-gliding in Action">
+            <p>Welcome to <span class="bold">Harry and Harriet's Hang-gliding Haven</span>, a premier destination for <span class="italic">hang-gliding and skydiving</span> enthusiasts located in the heart of Indiana. Our journey began in 2010, driven by a passion for the skies and a commitment to safety and exhilaration.</p>
+            <p>Our founders, <span class="underline">Harry and Harriet</span>, have cultivated a <span class="highlight">thriving community</span> of adventure seekers. We're proud to offer:</p>
+            <ul>
+                <li>Comprehensive training programs</li>
+                <li>State-of-the-art equipment sales</li>
+                <li>Personalized adventure packages</li>
+            </ul>
+            <p>Explore the top 10 fictional locations in Indiana for skydiving and hang-gliding:</p>
+            <ol>
+                <li>Cloudsdale Cliffs</li>
+                <li>Windwhisper Valley</li>
+                <li>Eagle's Nest Plateau</li>
+                <li>Twilight Canyon</li>
+                <li>Stormfront Ridge</li>
+                <li>Misthaven Mountains</li>
+                <li>Skydance Meadows</li>
+                <li>Thunderhead Peaks</li>
+                <li>Sunrise Summit</li>
+                <li>Horizon Heights</li>
+            </ol>
+            <p>For more details on our programs and services, download our <a href="path/to/your/brochure.pdf" download="Harry-Harriets-Hang-gliding-Haven-Brochure">brochure</a>.</p>
+            <p>Visit our <a href="https://example.com" target="_blank">partners</a> for more adventure gear.</p>
+        </section>
+        <section>
+            <h2>Meet Our Management Team</h2>
+            <img src="path/to/another/image.jpg" alt="Management Team">
+            <p>At <span class="bold">Harry and Harriet's Hang-gliding Haven</span>, our dedicated team works tirelessly to ensure the highest levels of safety, enjoyment, and customer satisfaction. Meet the minds behind the magic:</p>
+            <!-- Management Team Members -->
+            <!-- Add individual team member details here similar to the first section -->
+            <p>Interested in joining our team? Download our <a href="path/to/your/career-opportunities.pdf" download="Career-Opportunities">career opportunities brochure</a>.</p>
+        </section>
         <p>Contact us via email at <a href="mailto:info@hangglidinghaven.com" class="contact-link">info@hangglidinghaven.com</a></p>
+        <span class="modified-date">Last updated on </span>
     </div>
     <script>
-        document.querySelector('.modified-date').textContent = new Date(document.lastModified).toLocaleDateString("en-US");
+        document.querySelector('.modified-date').textContent += new Date(document.lastModified).toLocaleDateString("en-US");
     </script>
 </body>
 </html>
